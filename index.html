@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/e9b60f40bc.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+
+<body id="top">
+	<header class="promo">
+		<div class="promo__line"></div>
+		<div class="wrapper">
+
+			<h1 class="promo__title"><svg height="100" width="200">
+					<defs>
+						<linearGradient id="grad" x1="80%" y1="0%" x2="0%" y2="50%">
+							<stop offset="0%" style="stop-color:rgb(250, 117, 84);stop-opacity:1" />
+							<stop offset="100%" style="stop-color:rgb(114, 7, 105);stop-opacity:1" />
+						</linearGradient>
+					</defs>
+
+					<text x="0" y="75" font-size="41" font-weight="900" fill="url(#grad)">"LevelUp"</text>
+				</svg><br>Продукт для повышения потенции.</h1>
+			<hr>
+			<div class="promo__interest">
+				<img src="img/prod.png" alt="" class="promo__img">
+
+				<ul class="promo__features">
+					<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, ratione ipsam. Est dolore cum quis
+						consequuntur qui repellendus ab beatae! Tempora exercitationem veritatis vel voluptatum!</li>
+					<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laboriosam nemo illum provident tenetur
+						porro molestiae! Voluptates, veniam! Illo dolor quidem minus quia unde error!</li>
+					<li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum veniam nisi iste obcaecati omnis
+						aperiam
+						odit officia labore facere temporibus, minima est delectus ipsum quaerat.</li>
+					<a href="#down" class="promo__link">заказать</a>
+				</ul>
+
+			</div>
+
+		</div>
+		<video class="promo__video" loop="loop" autoplay="" muted="">
+			<source src="img/video-2.mp4" type="video/mp4" />
+	</header>
+
+
+	<section class="consist">
+		<div class="wrapper consist__wrap">
+			<div class="consist__list-left">
+				<ul class="consist__item">
+					<li class="consist__img consist__img-1"></li>
+					<li class="consist__text">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+				</ul>
+				<ul class="consist__item">
+					<li class="consist__img consist__img-2"></li>
+					<li class="consist__text">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+				</ul>
+				<ul class="consist__item">
+					<li class="consist__img consist__img-3"></li>
+					<li class="consist__text">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+				</ul>
+			</div>
+			<div class="consist__center">
+				<img src="img/prod.png" alt="img" class="consist__photo">
+				<a href="#down" class="consist__link">заказать</a>
+			</div>
+			<div class="consist__list-right">
+				<ul class="consist__item">
+					<li class="consist__img consist__img-4"></li>
+					<li class="consist__text">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+				</ul>
+				<ul class="consist__item">
+					<li class="consist__img consist__img-5"></li>
+					<li class="consist__text">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+				</ul>
+				<ul class="consist__item">
+					<li class="consist__img consist__img-6"></li>
+					<li class="consist__text">Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+				</ul>
+			</div>
+		</div>
+
+	</section>
+
+	<!------------------ slider ------------------------>
+
+	<section class="review">
+		<div class="slider-container">
+
+			<input type="radio" class="slide__img" name="slide__img" id="img_1" checked>
+			<input type="radio" class="slide__img" name="slide__img" id="img_2">
+			<input type="radio" class="slide__img" name="slide__img" id="img_3">
+
+			<div class="slider" id="first">
+				<img src="img/slider_img-1.png" alt="">
+				<p class="slider__title">Dennis Jowson</p>
+				<p class="slider__text">"Знаете, это просто чумовой препарат, я в восторге!" Lorem ipsum dolor sit amet
+					consectetur adipisicing elit.</p>
+			</div>
+
+			<div class="slider" id="second">
+				<img src="img/slider_img-2.png" alt="">
+				<p class="slider__title">Peter Trow</p>
+				<p class="slider__text">"Никогда бы не подумал, что так могу. Мы с моей Люси заново познаем друг друга.
+					Класс!" Eaque quia repellendus libero placeat
+				</p>
+			</div>
+
+			<div class="slider" id="third">
+				<img src="img/slider_img-3.png" alt="">
+				<p class="slider__title">Benny Urkides</p>
+				<p class="slider__text">"Этот Препарат просто бомба!! Теперь то я знаю точно: моя жизнь только началась!" Lorem
+					ipsum dolor sit amet consectetur adipisicing elit. Error, quam</p>
+			</div>
+
+			<div id="arrow_next">
+				<label for="img_1">
+					<i class="fas fa-chevron-right"></i>
+				</label>
+				<label for="img_2">
+					<i class="fas fa-chevron-right"></i>
+				</label>
+				<label for="img_3">
+					<i class="fas fa-chevron-right"></i>
+				</label>
+			</div>
+
+			<div id="arrow_prev">
+				<label for="img_1"><i class="fas fa-chevron-left" aria-hidden="true"></i>
+				</label>
+				<label for="img_2"><i class="fas fa-chevron-left" aria-hidden="true"></i>
+				</label>
+				<label for="img_3"><i class="fas fa-chevron-left" aria-hidden="true"></i>
+				</label>
+			</div>
+
+			<div class="switchers">
+				<label class="switcher" id="switcher1" for="img_1"></label>
+				<label class="switcher" id="switcher2" for="img_2"></label>
+				<label class="switcher" id="switcher3" for="img_3"></label>
+			</div>
+
+		</div>
+	</section>
+	<!------------------ slider ------------------------>
+
+	<section class="promotion">
+		<div class="wrapper promotion__wrap">
+			<div class="promotion__product">
+				<img src="img/doctor_img.png" alt="" class="promotion__img">
+				<div class="promotion__descr">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti explicabo labore sint molestias. Quae
+						facilis quos, asperiores cumque ullam sunt.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quasi incidunt atque enim dolores hic
+						dolor dicta molestias iure minus. Quos fugiat sed fuga! Debitis hic pariatur ab explicabo nam.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti explicabo labore sint molestias. Quae
+						facilis quos, asperiores cumque ullam sunt.</p>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus aliquid, placeat libero minima
+						expedita quis officiis dicta ullam porro cumque unde pariatur eius numquam ipsa dolorum quam corporis
+					</p>
+
+				</div>
+			</div>
+			<ul class="promotion__special">
+				<li><i class="fas fa-check"></i>Lorem ipsum dolor sit.</li>
+				<li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet consectetur.</li>
+				<li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet.</li>
+			</ul>
+			<a href="#down" class="promotion__link">заказать</a>
+		</div>
+	</section>
+
+	<section class="order">
+		<div class="wrapper order__wrap">
+			<h2 class="order__title"><svg height="100" width="200">
+					<defs>
+						<linearGradient id="grad" x1="80%" y1="0%" x2="0%" y2="50%">
+							<stop offset="0%" style="stop-color:rgb(250, 117, 84);stop-opacity:1" />
+							<stop offset="100%" style="stop-color:rgb(114, 7, 105);stop-opacity:1" />
+						</linearGradient>
+					</defs>
+
+					<text x="0" y="75" font-size="41" font-weight="900" fill="url(#grad)">"LevelUp"</text>
+				</svg><br>Продукт для повышения потенции.
+			</h2>
+			<div class="order__timer">
+				<script src="//megatimer.ru/get/ae3e64e9e4bf9ed8b28a1fe9341e844c.js"></script>
+			</div>
+			<div class="order__check">
+				<div class="order__price">
+					<img src="img/prod.png" alt="img" class="order__img">
+					<p class="order__former"><del>$970</del></p>
+					<p class="order__new"><svg height="100" width="200">
+							<defs>
+								<linearGradient id="grad" x1="80%" y1="0%" x2="0%" y2="50%">
+									<stop offset="0%" style="stop-color:rgb(250, 117, 84);stop-opacity:1" />
+									<stop offset="100%" style="stop-color:rgb(126, 26, 1);stop-opacity:1" />
+								</linearGradient>
+							</defs>
+
+							<text x="0" y="75" font-size="70" font-weight="900" fill="url(#grad)">$690</text>
+						</svg></p>
+				</div>
+				<div class="order__checkout">
+					<form action="#" class="order__form">
+						<h2 class="order__title">Форма заказа</h2>
+
+
+						<div class="tooltip"><input class="order__input  order__input-name" type="text" placeholder="name" required>
+							<span class="tooltiptext">Арнольд Шварценеггер</span>
+						</div>
+
+						<div class="tooltip"><input class="order__input  order__input-phone" type="text" placeholder="phone"
+								required>
+							<span class="tooltiptext">+7 999 888 6323</span>
+						</div>
+
+						<button class="order__btn">заказать</button>
+						<a name="down"></a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+</body>
+
+</html>
