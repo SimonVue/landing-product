@@ -405,8 +405,9 @@ body
 		&:active
 			color: $color_uniq
 
-		@media (max-width: 767px)
-			display: none
+		@media(max-width: 427px)
+			right: 30px
+
 
 	#arrow_prev label
 		color: rgba(0, 0, 0, 0.7)
@@ -419,8 +420,8 @@ body
 		&:active
 			color: $color_uniq
 
-		@media (max-width: 767px)
-			display: none
+		@media(max-width: 427px)
+			left: 30px
 
 	.switchers
 		position: absolute
@@ -649,7 +650,7 @@ body
 
 	&__timer
 		display: block
-		width: 80%
+		width: auto
 		padding: 3px 20px
 		margin: 0 auto 80px
 
@@ -679,7 +680,6 @@ body
 		font-size: 100px
 		font-weight: 900
 		fill: url(#grad)
-		margin-left: 40px
 
 	.order__checkout
 		justify-content: start
