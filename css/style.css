@@ -838,7 +838,7 @@ body {
 }
 .order__timer {
   display: block;
-  width: 80%;
+  width: auto;
   padding: 3px 20px;
   margin: 0 auto 80px;
 }
@@ -871,7 +871,6 @@ body {
   font-size: 100px;
   font-weight: 900;
   fill: url(#grad);
-  margin-left: 40px;
 }
 .order .order__checkout {
   justify-content: start;
