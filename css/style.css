@@ -518,9 +518,9 @@ body {
 .review #arrow_next label:active {
   color: #7e1e7e;
 }
-@media (max-width: 767px) {
+@media (max-width: 427px) {
   .review #arrow_next label {
-    display: none;
+    right: 30px;
   }
 }
 .review #arrow_prev label {
@@ -535,9 +535,9 @@ body {
 .review #arrow_prev label:active {
   color: #7e1e7e;
 }
-@media (max-width: 767px) {
+@media (max-width: 427px) {
   .review #arrow_prev label {
-    display: none;
+    left: 30px;
   }
 }
 .review .switchers {
