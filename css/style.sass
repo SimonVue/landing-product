@@ -18,7 +18,7 @@ $color_uniq: #7e1e7e
 	&:hover
 		background: $color_uniq
 		color: 	 #fff
-		transform: scale(1.07)
+		transform: scale(1.06)
 
 *
 	margin: 0
@@ -680,6 +680,16 @@ body
 		font-size: 100px
 		font-weight: 900
 		fill: url(#grad)
+		animation: pulse 1.5s infinite linear
+
+		@keyframes pulse
+			0%
+				transform: scale(1)
+			50%
+				transform: scale(1.1)
+			100%
+				transform: scale(1)
+
 
 	.order__checkout
 		justify-content: start

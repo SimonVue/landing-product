@@ -209,7 +209,7 @@ body {
 .promo .promo__interest .promo__features .promo__link:hover {
   background: #7e1e7e;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.06);
 }
 @media (max-width: 1420px) {
   .promo .promo__interest .promo__features .promo__link {
@@ -388,7 +388,7 @@ body {
 .consist__link:hover {
   background: #7e1e7e;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.06);
 }
 
 .reviews {
@@ -783,7 +783,7 @@ body {
 .promotion__wrap .promotion__link:hover {
   background: #7e1e7e;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.06);
 }
 
 .order {
@@ -871,6 +871,18 @@ body {
   font-size: 100px;
   font-weight: 900;
   fill: url(#grad);
+  animation: pulse 1.5s infinite linear;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .order .order__checkout {
   justify-content: start;
@@ -965,7 +977,7 @@ body {
 .order__btn:hover {
   background: #7e1e7e;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.06);
 }
 
 /*# sourceMappingURL=style.css.map */
