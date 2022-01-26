@@ -865,11 +865,16 @@ body {
   font-size: 36px;
   text-align: center;
 }
+.order__price {
+  text-align: center;
+}
 .order__new {
+  display: inline-block;
   text-align: center;
   font-family: sans-serif;
   font-size: 100px;
   font-weight: 900;
+  overflow: hidden;
   fill: url(#grad);
   animation: pulse 1.5s infinite linear;
 }
