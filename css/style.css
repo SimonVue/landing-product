@@ -518,9 +518,21 @@ body {
 .review #arrow_next label:active {
   color: #7e1e7e;
 }
+@media (max-width: 767px) {
+  .review #arrow_next label {
+    right: 45px;
+    top: 60%;
+  }
+}
+@media (max-width: 580px) {
+  .review #arrow_next label {
+    top: 45%;
+  }
+}
 @media (max-width: 427px) {
   .review #arrow_next label {
     right: 30px;
+    top: 23%;
   }
 }
 .review #arrow_prev label {
@@ -535,9 +547,21 @@ body {
 .review #arrow_prev label:active {
   color: #7e1e7e;
 }
+@media (max-width: 767px) {
+  .review #arrow_prev label {
+    left: 45px;
+    top: 60%;
+  }
+}
+@media (max-width: 580px) {
+  .review #arrow_prev label {
+    top: 45%;
+  }
+}
 @media (max-width: 427px) {
   .review #arrow_prev label {
     left: 30px;
+    top: 23%;
   }
 }
 .review .switchers {

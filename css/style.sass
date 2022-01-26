@@ -405,8 +405,14 @@ body
 		&:active
 			color: $color_uniq
 
+		@media(max-width: 767px)
+			right: 45px
+			top: 60%
+		@media(max-width: 580px)
+			top: 45%
 		@media(max-width: 427px)
 			right: 30px
+			top: 23%
 
 
 	#arrow_prev label
@@ -420,8 +426,15 @@ body
 		&:active
 			color: $color_uniq
 
+		@media(max-width: 767px)
+			left: 45px
+			top: 60%
+		@media(max-width: 580px)
+			top: 45%
+
 		@media(max-width: 427px)
 			left: 30px
+			top: 23%
 
 	.switchers
 		position: absolute
