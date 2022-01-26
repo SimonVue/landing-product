@@ -209,7 +209,7 @@ body {
 .promo .promo__interest .promo__features .promo__link:hover {
   background: #7e1e7e;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.06);
 }
 @media (max-width: 1420px) {
   .promo .promo__interest .promo__features .promo__link {
@@ -388,7 +388,7 @@ body {
 .consist__link:hover {
   background: #7e1e7e;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.06);
 }
 
 .reviews {
@@ -518,9 +518,21 @@ body {
 .review #arrow_next label:active {
   color: #7e1e7e;
 }
+@media (max-width: 767px) {
+  .review #arrow_next label {
+    right: 45px;
+    top: 60%;
+  }
+}
+@media (max-width: 580px) {
+  .review #arrow_next label {
+    top: 45%;
+  }
+}
 @media (max-width: 427px) {
   .review #arrow_next label {
     right: 30px;
+    top: 23%;
   }
 }
 .review #arrow_prev label {
@@ -535,9 +547,21 @@ body {
 .review #arrow_prev label:active {
   color: #7e1e7e;
 }
+@media (max-width: 767px) {
+  .review #arrow_prev label {
+    left: 45px;
+    top: 60%;
+  }
+}
+@media (max-width: 580px) {
+  .review #arrow_prev label {
+    top: 45%;
+  }
+}
 @media (max-width: 427px) {
   .review #arrow_prev label {
     left: 30px;
+    top: 23%;
   }
 }
 .review .switchers {
@@ -783,7 +807,7 @@ body {
 .promotion__wrap .promotion__link:hover {
   background: #7e1e7e;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.06);
 }
 
 .order {
@@ -865,12 +889,29 @@ body {
   font-size: 36px;
   text-align: center;
 }
+.order__price {
+  text-align: center;
+}
 .order__new {
+  display: inline-block;
   text-align: center;
   font-family: sans-serif;
   font-size: 100px;
   font-weight: 900;
+  overflow: hidden;
   fill: url(#grad);
+  animation: pulse 1.5s infinite linear;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .order .order__checkout {
   justify-content: start;
@@ -965,7 +1006,7 @@ body {
 .order__btn:hover {
   background: #7e1e7e;
   color: #fff;
-  transform: scale(1.07);
+  transform: scale(1.06);
 }
 
 /*# sourceMappingURL=style.css.map */
